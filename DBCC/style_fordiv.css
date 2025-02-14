@@ -1,0 +1,45 @@
+.first{
+	margin: 20px;
+	border: 30px solid violet;
+	background-color: grey;
+	height: 100px;
+	width: 200px;
+	padding: 20px;
+}
+.second{
+	box-sizing: border-box;
+	margin: 50px;
+	border: 30px solid red;
+	background-color: blue;
+	height: 100px;
+	width: 200px;
+	padding: 20px;
+}
+.container{
+	border: 2px solid black;
+	height: 200px;
+	background-color: bisque;
+}
+.box1{
+	position: relative;
+	top: 100px;
+	left: 1000px;
+	background-color: aquamarine;
+	padding: 20px;
+}
+.box2{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: blue;
+        padding: 20px;
+}
+.box3{
+        position: sticky;
+        top: 20px;
+        left: 30px;
+        background-color: violet;
+        padding: 20px;
+}
+
+
